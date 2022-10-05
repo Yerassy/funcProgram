@@ -3,6 +3,8 @@ b = int(input())
 
 c = 2 * b
 d = a * 75 / 100 #2 class seat 
-
 e = c * (a - d) +  b * d
-print(e)
+if c > d:
+      print(e)
+else:
+    print("Error")
